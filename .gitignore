@@ -1,1 +1,131 @@
-.out
+# ============================================
+# Android / Kotlin / Java
+# ============================================
+
+# Compiled files
+*.class
+*.dex
+*.apk
+*.ap_
+*.aab
+*.jar
+*.war
+*.ear
+
+# Build outputs
+**/build/
+**/bin/
+**/out/
+**/target/
+
+# Gradle
+.gradle/
+**/.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Gradle wrapper (keep the wrapper, ignore the rest)
+gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+**/local.properties
+**/gradle.properties
+
+# ============================================
+# IDE files
+# ============================================
+
+# Android Studio / IntelliJ IDEA
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+*.iws
+*.ipr
+out/
+gen/
+.navigation/
+captures/
+.externalNativeBuild
+.cxx
+**/caches/
+**/modules.xml
+**/workspace.xml
+**/navigation.xml
+**/usage.statistics.xml
+**/deploymentTargetSelector.xml
+**/deviceManager.xml
+**/gradle.xml
+**/compiler.xml
+**/misc.xml
+**/runConfigurations.xml
+**/vcs.xml
+
+# Eclipse
+.classpath
+.project
+.settings/
+**/.settings/
+
+# Visual Studio Code
+.vscode/
+**/.vscode/
+*.code-workspace
+
+# ============================================
+# System files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# Logs and databases
+# ============================================
+
+*.log
+*.sql
+*.sqlite
+
+# ============================================
+# OS generated files
+# ============================================
+
+# Symbolic links and temp files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# ============================================
+# Project specific
+# ============================================
+
+# Kotlin
+.kotlin/
+**/.kotlin/
+
+# Gradle wrapper distribution (keep wrapper jar but not the distribution)
+gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
